@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	height: 100vh;
+	/* TODO: fine-tune this gradient */
+	/* background: linear-gradient(180deg, #00000000 75%, oklch(var(--b3)) 100%),
+		linear-gradient(180deg, oklch(var(--b3)) 0%, #00000000 15%); */
+
+	background: url('$lib/assets/logo.png') oklch(var(--b1)) center no-repeat;
+	background-size: 30%;
+}
+
+.big-shadow {
+	box-shadow: 0px 0px 35px oklch(var(--bc) / 0.2);
+}
+
+strong {
+	@apply font-bold;
+}
+
+ol {
+	@apply list-decimal;
+}
+
+ul {
+	@apply list-disc;
+}
+
+ul,
+ol {
+	@apply ml-4;
+}
+
+li {
+	@apply ml-8;
+}
