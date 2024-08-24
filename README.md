@@ -1,6 +1,6 @@
 # Secure-GPT
 
-This repository contains the Secure-GPT project of the Hephaestus association.
+This repository contains the Secure-GPT project of the Hephaestus association. A prototype can be found in https://secure-gpt-hepaestus.vercel.app/.
 
 ## Information for the developers
 
